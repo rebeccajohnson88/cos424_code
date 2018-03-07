@@ -1,6 +1,6 @@
 
 # COS424 HM1
-# Rebecca Johnston and Diana Stanescu
+# Rebecca Johnson and Diana Stanescu
 
 # coding: utf-8
 
