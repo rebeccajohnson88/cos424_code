@@ -16,3 +16,4 @@ In this assignment, we were provided with a training set of reviews from Amazon,
 		- modelaccuracy_*: a .csv format file with model accuracy metrics 			for the three types of feature selected data (manual, lasso, 				logit)
 		- modeltime_all: a .csv format file with model runtime metrics for 			the three types of feature selected models
 	
+3. confusion_summary.pdf: this summarizes four confusion matrix metrices across the classification models: true negatives (reviews with an actual negative label predicted to have a negative label); false positives (reviews with an actual negative label predicted to have a positive label); false negatives (reviews with an actual positive label predicted to have a negative label); true positives (reviews with an actual positive predicted to have positive). 
