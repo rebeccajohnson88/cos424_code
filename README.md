@@ -19,3 +19,20 @@ In this assignment, we were provided with a training set of reviews from Amazon,
 3. *confusion_summary.pdf*: this summarizes four confusion matrix metrices across the classification models: true negatives (reviews with an actual negative label predicted to have a negative label); false positives (reviews with an actual negative label predicted to have a positive label); false negatives (reviews with an actual positive label predicted to have a negative label); true positives (reviews with an actual positive predicted to have positive). 
 
 4.  *classification_results_writeup.pdf*: This write-up summarizes the main findings of the classification task, and delves deeper into one classification method: logistic regression with an L1 penalty (a form of regularization that introduces sparsity in the estimated parameters). It summarizes the goals in the task, why we care more about avoiding false positives than avoiding false negatives, and the main results.
+
+
+- *Fragile families challenge assignment*: 
+
+In this assignment, we used data from the Fragile Families cohort for children ages 0-9 to predict outcomes at age 15. 
+
+1. ffchallenge_code.py: this code does the following:
+
+	1. Takes in the covariate data and labels 
+	2. Imputes missing data to the mean of the column
+	3. Encodes categorical variables so that they can be used in an ML model
+	4. Separates data into training and test set
+	5. Creates three types of features: mother-reported features, father-reported features, PCA-generated features
+	6. Creates a function "model_fit_function" that predicts based on the training features, calculates the MSE (the accuracy metric of interest) based on the test features, and returns the model coefficients when applicable
+	7. Interfaces with the machine-readable fragile families codebook to get the question text for most important features 
+
+
